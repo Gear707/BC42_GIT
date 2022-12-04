@@ -7,3 +7,4 @@ git commit -> xác nhận & lưu trữ các file đã thay đổi vào local rep
 git commit -m "message committed"
 
 git log -> xem lịch sử commit
+
