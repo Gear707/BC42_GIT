@@ -20,3 +20,17 @@ git clone -> tải remote repository về máy tính
 git branch "branch name" -> tạo branch mới
 git checkout "branch name" -> chuyển sang branch khác
 git checkout -b "branch name" -> tạo & chuyển branch mới
+
+git pull -> kéo tất cả commit mới nhất từ remote repository về local repository
+
+git merge -> hợp nhất những commit ở 1 branch vào 1 branch khác
+VD: branch hiện tại đang là feature-a, khi chạy lệnh "git merge master" => hợp nhất những commit ở master vào feature-a
+
+Quy trình xử lý khi bị conflict
+1. Checkout về branch master
+2. Chạy lệnh "git pull" để cập nhật những commit mới nhất cho master ở local repository
+3. Checkout về branch feature-a
+4. Chạy "git merge master" để hợp nhất những commit của master vào feature-a
+5. Giải quyết conflict ở VSCode
+6. Thực hiện "git add", "git commit", "git push"
+7. Quay lại GitHub để tạo pull request
