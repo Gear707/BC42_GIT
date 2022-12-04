@@ -8,3 +8,4 @@ git commit -m "message committed"
 
 git log -> xem lịch sử commit
 
+git status -> kiểm tra tình trạng chỉnh sửa file
