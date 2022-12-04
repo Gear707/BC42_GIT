@@ -1,0 +1,9 @@
+git init -> khởi tạo git cho 1 project (dùng duy nhất 1 lần)
+
+git add filename1 filename2 -> thêm 1 hoặc nhiều file vào staging area
+git add . -> thêm tất cả các file vào staging area
+
+git commit -> xác nhận & lưu trữ các file đã thay đổi vào local repository
+git commit -m "message committed"
+
+git log -> xem lịch sử commit
