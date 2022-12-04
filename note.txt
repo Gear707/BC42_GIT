@@ -1,3 +1,6 @@
+git config --global user.name "tên"-> thiết lập tên user (chỉ khai báo duy nhất 1 lần)
+git config --global user.email "địa chỉ email" -> thiết lập email của user (chỉ khai báo duy nhất 1 lần)
+
 git init -> khởi tạo git cho 1 project (dùng duy nhất 1 lần)
 
 git add filename1 filename2 -> thêm 1 hoặc nhiều file vào staging area
@@ -8,4 +11,5 @@ git commit -m "message committed"
 
 git log -> xem lịch sử commit
 
-git status -> kiểm tra tình trạng chỉnh sửa file
+git status -> kiểm tra trạng thái hiện tại của working directory, hiển thị những files bị thay đổi so với lần commit trước đó.
+
