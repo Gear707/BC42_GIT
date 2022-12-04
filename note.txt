@@ -16,3 +16,7 @@ git status -> kiểm tra trạng thái hiện tại của working directory, hi�
 git push -> đẩy tất cả commit lên remote repository (GitHub)
 
 git clone -> tải remote repository về máy tính
+
+git branch "branch name" -> tạo branch mới
+git checkout "branch name" -> chuyển sang branch khác
+git checkout -b "branch name" -> tạo & chuyển branch mới
