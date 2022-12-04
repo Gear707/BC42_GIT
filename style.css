@@ -1,0 +1,12 @@
+h1{
+    color: brown;
+}
+
+p{
+    background-color: chartreuse;
+}
+
+.group{
+    display: flex;
+    justify-content: space-evenly;
+}
