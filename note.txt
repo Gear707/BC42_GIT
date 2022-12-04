@@ -13,3 +13,6 @@ git log -> xem lịch sử commit
 
 git status -> kiểm tra trạng thái hiện tại của working directory, hiển thị những files bị thay đổi so với lần commit trước đó.
 
+git push -> đẩy tất cả commit lên remote repository (GitHub)
+
+git clone -> tải remote repository về máy tính
